@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-box {
+  width: 100%;
+  background-color: rgb(250, 77, 221);
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 20px;
+}
+
+.item {
+  background-color: pink;
+  list-style: none;
+  height: 70px;
+  flex-basis: 140px;
+  margin: 0 10px;
+}
+
+.item:first-child {
+  margin-right: auto;
+}
+
+.main-box {}
